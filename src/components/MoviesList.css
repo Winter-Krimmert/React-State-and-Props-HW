@@ -1,0 +1,114 @@
+/* Container for the movies list */
+.movies-list-container {
+    max-width: 800px; /* Limiting maximum width for content */
+    margin: 20px auto; /* Centering the container and adding space around it */
+    padding: 20px; /* Inner padding for content */
+    background-color: #f0f0f0; /* Background color */
+    border: 1px solid #ccc; /* Border with light gray color */
+    border-radius: 8px; /* Rounded corners */
+}
+
+/* Container for genre toggle buttons */
+.genre-toggle-container {
+    margin-bottom: 10px; /* Space below the genre buttons */
+}
+
+/* Style for genre buttons */
+.genre-button {
+    margin-right: 10px; /* Right margin between buttons */
+    padding: 5px 10px; /* Padding inside the button */
+    background-color: #e0e0e0; /* Background color */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Active state style for genre buttons */
+.genre-button.active {
+    background-color: lightblue; /* Light blue background when active */
+}
+
+/* Container for adding new movie */
+.add-movie-container {
+    margin-bottom: 20px; /* Space below the add movie inputs */
+}
+
+/* Input fields for movie title, description, and genres */
+.movie-input {
+    width: calc(100% - 20px); /* Full width minus 20px for padding */
+    margin-bottom: 10px; /* Space below each input */
+    padding: 8px; /* Padding inside each input */
+    font-size: 14px; /* Font size */
+    border: 1px solid #ccc; /* Border with light gray color */
+    border-radius: 4px; /* Rounded corners */
+}
+
+/* Style for the add movie button */
+.add-movie-button {
+    padding: 10px 20px; /* Padding inside the button */
+    background-color: #4caf50; /* Green background color */
+    color: white; /* Text color */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Hover state for add movie button */
+.add-movie-button:hover {
+    background-color: #45a049; /* Darker green background on hover */
+}
+
+/* Styling for the movies list */
+.movies-list {
+    list-style-type: none; /* No bullets or numbers for list items */
+    padding: 0; /* No padding */
+}
+
+/* Styling for each movie item */
+.movie-item {
+    margin-bottom: 10px; /* Space below each movie item */
+    padding: 10px; /* Padding inside each movie item */
+    background-color: #fff; /* White background */
+    border: 1px solid #ccc; /* Border with light gray color */
+    border-radius: 4px; /* Rounded corners */
+}
+
+/* Layout for movie details */
+.movie-details {
+    display: flex; /* Flex layout for aligning items */
+    justify-content: space-between; /* Space between items */
+    align-items: center; /* Center align items vertically */
+}
+
+/* Styling for movie title */
+.movie-title {
+    font-size: 18px; /* Larger font size */
+    font-weight: bold; /* Bold font weight */
+}
+
+/* Styling for details and remove buttons */
+.details-button, .remove-button {
+    padding: 5px 10px; /* Padding inside each button */
+    margin-left: 10px; /* Left margin between buttons */
+    background-color: #007bff; /* Blue background color */
+    color: white; /* Text color */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Hover state for details and remove buttons */
+.details-button:hover, .remove-button:hover {
+    background-color: #0056b3; /* Darker blue background on hover */
+}
+
+/* Styling for movie description */
+.movie-description {
+    margin-top: 5px; /* Space above description */
+    font-size: 14px; /* Font size */
+}
+
+/* Styling for movie genres */
+.movie-genres {
+    margin-top: 5px; /* Space above genres */
+    font-size: 14px; /* Font size */
+    color: #666; /* Gray text color */
+}
